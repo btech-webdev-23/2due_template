@@ -23,6 +23,12 @@
 			  rel="stylesheet">
 		<link href="css/dashboard.css"
 			  rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+				crossorigin="anonymous"></script>
+		<!-- Import the main script file -->
+		<script src="./scripts/todo.js"
+				defer></script>
 		<title>2Due - Modern Todo App</title>
 	</head>
 
@@ -40,10 +46,10 @@
 				<div>
 					<ul class="navbar-links">
 						<li>
-							<a href="/dashboard.html">Dashboard</a>
+							<a href="./dashboard.html">Dashboard</a>
 						</li>
 						<li>
-							<a href="#pricing-section">Pricing</a>
+							<a href="./index.html#pricing-section">Pricing</a>
 						</li>
 						<li>
 							<a href="#">Account</a>
@@ -62,10 +68,10 @@
 							<p>Add a todo</p>
 							<div class="input-group">
 								<input type="text"
-									   id="todo"
+									   id="todo-input"
 									   name="todo_value"
-									   placeholder="Add a todo">
-								<button>
+									   placeholder="Buy Milk">
+								<button id="todo-button-add">
 									<svg xmlns="http://www.w3.org/2000/svg"
 										 class="button-icon"
 										 fill="none"
@@ -80,10 +86,29 @@
 							</div>
 						</label>
 
-						<ul class="todo-list">
-							<li>Buy Milk</li>
-							<li>Buy Ham</li>
-							<li>Pick up Josh</li>
+						<ul id="todo-list"
+							class="todo-list">
+							<li id="todo-item-3">
+								<button class="todo-item-button">
+									Buy Milk
+								</button>
+								<button
+										class="todo-item-button-delete">x</button>
+							</li>
+							<li id="todo-item-2">
+								<button class="todo-item-button">
+									Buy Ham
+								</button>
+								<button
+										class="todo-item-button-delete">x</button>
+							</li>
+							<li id="todo-item-1">
+								<button class="todo-item-button">
+									Pick up Josh
+								</button>
+								<button
+										class="todo-item-button-delete">x</button>
+							</li>
 						</ul>
 
 					</div>
