@@ -1,28 +1,12 @@
 .dashboard-section {
 	height: 87.5vh;
 	background-color: hsla(0, 0%, 100%, 1);
-	background-image: radial-gradient(
-			at 40% 20%,
-			hsla(28, 100%, 90%, 1) 0px,
-			transparent 50%
-		),
+	background-image: radial-gradient(at 40% 20%, hsla(28, 100%, 90%, 1) 0px, transparent 50%),
 		radial-gradient(at 80% 0%, hsla(189, 100%, 90%, 1) 0px, transparent 50%),
-		radial-gradient(
-			at 1% 48%,
-			hsla(355, 100%, 90%, 0.8) 0px,
-			transparent 50%
-		),
-		radial-gradient(
-			at 67% 51%,
-			hsla(340, 100%, 90%, 1) 0px,
-			transparent 50%
-		),
+		radial-gradient(at 1% 48%, hsla(355, 100%, 90%, 0.8) 0px, transparent 50%),
+		radial-gradient(at 67% 51%, hsla(340, 100%, 90%, 1) 0px, transparent 50%),
 		radial-gradient(at 0% 100%, hsla(22, 100%, 90%, 1) 0px, transparent 50%),
-		radial-gradient(
-			at 93% 88%,
-			hsla(242, 100%, 90%, 1) 0px,
-			transparent 50%
-		),
+		radial-gradient(at 93% 88%, hsla(242, 100%, 90%, 1) 0px, transparent 50%),
 		radial-gradient(at 0% 0%, hsla(343, 100%, 90%, 1) 0px, transparent 50%);
 	background-attachment: fixed;
 	background-position: center;
@@ -150,4 +134,8 @@
 .input-group:focus-within {
 	box-shadow: 0 0 0 1px hsla(0, 0%, 100%, 0.5);
 	outline: auto;
+}
+
+.strike {
+	text-decoration: line-through;
 }
