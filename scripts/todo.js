@@ -34,6 +34,10 @@
 
 // add code here
 
+//* If the todoText value is not empty, remove the "No todos!" message from the DOM by calling the removeNoTodos function.
+
+// add code here
+
 //* Select the item list (ul)
 
 // add code here
@@ -54,11 +58,8 @@
 
 // add code here
 
-//* Add a click event listener to the todoButton element.
-
-// add code here
-
-//* Within the click event listener callback function, change the style of the todoButton element to toggle a class called "strike".
+//* Add a click event listener to the todoButton element. Add an anonymous callback function that
+//* calls the toggleTodo function and passes in the newTodo element as an argument to the toggleTodo function.
 
 // add code here
 
@@ -70,11 +71,8 @@
 
 // add code here
 
-//* Add a click event listener to the todoDelete element.
-
-// add code here
-
-//* Within the click event listener callback function, remove the whole newTodo element (li) from the DOM.
+//* Add a click event listener to the todoDelete element. Add an anonymous callback function that
+//* calls the deleteTodo function and passes in the newTodo element as an argument to the deleteTodo function.
 
 // add code here
 
@@ -95,3 +93,29 @@
 // add code here
 
 //! End of callback function for the click event listener on the add button.
+
+//* Create a function called toggleTodo that takes an element as a parameter.
+//* Inside the function, toggle the class "strike" on the element.
+
+// add code here
+
+//* Create a function called deleteTodo that takes an element as a parameter.
+//* Inside the function, remove the element from the DOM. Then, call the removeNoTodos function.
+
+// add code here
+
+//* Select all the todo item buttons and store them in a variable called todoButtons.
+
+// add code here
+
+//* Loop through the todoButtons array and add a click event listener to each button. Add an anonymous callback function that calls the toggleTodo function and passes in the button element as an argument to the toggleTodo function.
+
+// add code here
+
+//* Select all the todo item delete buttons and store them in a variable called todoDeleteButtons.
+
+// add code here
+
+//* Loop through the todoDeleteButtons array and add a click event listener to each button. Add an anonymous callback function that calls the deleteTodo function and passes in the button element as an argument to the deleteTodo function.
+
+// add code here
